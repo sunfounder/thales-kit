@@ -12,7 +12,7 @@
 
     👉 Ready to explore and create with us? Click [|link_sf_facebook|] and join today!
 
-SunFounder Thales Kit for Raspberry Pi Pico 
+SunFounder Thales Starter Kit for Raspberry Pi Pico 
 ===========================================================
 SunFounder Thales Kit is a basic learning kit based on Raspberry Pi Pico.
 
