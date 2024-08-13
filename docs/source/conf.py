@@ -96,6 +96,13 @@ rst_epilog = """
 
     <a href="https://www.raspberrypi.com/documentation/microcontrollers/micropython.html#drag-and-drop-micropython" target="_blank">method</a>
 
+.. |link_Thales_kit| raw:: html
+
+    <a href="https://www.sunfounder.com/products/pico-starter-kit?_pos=1&_sid=f4bc507fe&_ss=r" target="_blank">Thales Starter Kit</a>
+
+.. |link_Thale_kit| raw:: html
+
+    <a href="https://www.sunfounder.com/products/pico-starter-kit?_pos=1&_sid=f4bc507fe&_ss=r" target="_blank">Purchase Link for Thales Kit</a>
 
 
 """
