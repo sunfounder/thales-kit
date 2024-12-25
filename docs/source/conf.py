@@ -14,12 +14,13 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 import sphinx_rtd_theme
+import time
 
 # -- Project information -----------------------------------------------------
 
 project = 'SunFounder Thales Kit for Raspberry Pi Pico'
-copyright = '2021, SunFounder'
-author = 'Jimmy, SunFounder'
+copyright = f'{time.localtime().tm_year}, SunFounder'
+author = 'www.sunfounder.com'
 
 # The full version, including alpha/beta/rc tags
 release = '1.0'
@@ -30,7 +31,16 @@ release = '1.0'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['sphinx.ext.autosectionlabel']
+extensions = [
+    'sphinx.ext.autosectionlabel',
+    'sphinx_copybutton',
+    'sphinx_rtd_theme',
+]
+
+# -- sphinx_rtd_theme Theme options -----------------------------------------------------
+html_theme_options = {
+    'flyout_display': 'attached'
+}
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
